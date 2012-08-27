@@ -33,7 +33,7 @@ blockquote p {
 }
 
 #followUs dd {
-    padding: 10px 0 35px;
+    padding: 10px 0 28px;
 }
 
 #followUs dd.last {
@@ -94,4 +94,11 @@ blockquote p {
 .post h2,
 .post h3 {
     margin: 1em 0 0.5em;
+}
+
+.navbar .brand {
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-height: 40px;
 }

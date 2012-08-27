@@ -1,7 +1,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="/">SFCN</a>
+            <a class="brand" href="/"><img src="/assets/sfcn_logo.png"></a>
 
             <ul id="topnav" class="nav">
                 <li{% if page.active_nav == 'home' %} class="active"{% endif %}><a href="/">首页</a></li>
@@ -9,10 +9,12 @@
                 <li{% if page.active_nav == 'news' %} class="active"{% endif %}><a href="/news/">项目动态</a></li>
                 <li><a href="/docs/">中文文档</a></li>
                 <li{% if page.active_nav == 'kb' %} class="active"{% endif %}><a href="/kb/">知识库</a></li>
+                <li><a href="http://segmentfault.com/tag/symfony" target="_blank">去SF提问 <span class="label label-warning">站外链接</span></a></li>
+            </ul>
+
+            <ul class="nav pull-right">
                 <li{% if page.active_nav == 'contribute' %} class="active"{% endif %}><a href="/contribute/">参与项目</a></li>
-                <!--<li><a href="/qunru/">讨论区</a></li>-->
                 <li{% if page.active_nav == 'contact' %} class="active"{% endif %}><a href="/contact.html">联系我们</a></li>
-                <li><a href="/forum/forum.php">论坛 <span class="label label-success">测试</span></a></li>
             </ul>
         </div>
     </div>
