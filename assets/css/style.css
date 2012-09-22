@@ -65,19 +65,19 @@ blockquote p {
     color: #222;
 }
 
-.update-list {
+.homelist {
     padding-left: 10px;
 }
 
-.update-list h2 {
+.homelist h2 {
     font-size: 16px;
 }
 
-.update-list li {
+.homelist li {
     margin-bottom: 7px;
 }
 
-.update-list .date {
+.homelist .date {
     color: #999999;
 }
 

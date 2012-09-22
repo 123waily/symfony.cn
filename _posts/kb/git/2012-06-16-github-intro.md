@@ -70,4 +70,4 @@ GitHub上的开发者绝大多数都使用英语来交流，如果你觉得自�
 
 [发现]: https://github.com/explore
 [推荐的项目]: https://github.com/explore
-[trending_repos_sample]: /assets/github/trending_repos_sample.png
+[trending_repos_sample]: /assets/img/github/trending_repos_sample.png

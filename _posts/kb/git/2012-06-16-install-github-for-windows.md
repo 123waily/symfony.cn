@@ -41,6 +41,6 @@ GitHub for Windows会自动找到你机器上的git代码仓库，你可以选�
 
 {% include git-references.md %}
 
-[connect]: /assets/github-for-windows/welcome-connect.gif
-[configure]: /assets/github-for-windows/welcome-configure.gif
-[repositories]: /assets/github-for-windows/welcome-repositories.gif
+[connect]: /assets/img/github-for-windows/welcome-connect.gif
+[configure]: /assets/img/github-for-windows/welcome-configure.gif
+[repositories]: /assets/img/github-for-windows/welcome-repositories.gif
