@@ -2,6 +2,16 @@ body {
     padding-top: 60px;
 }
 
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 20px;
+}
+
 p,
 ul {
 	margin-bottom: 1.5em;
@@ -90,15 +100,3 @@ blockquote p {
 .contribute-index .row {
     margin-bottom: 50px;
 }
-
-.post h2,
-.post h3 {
-    margin: 1em 0 0.5em;
-}
-
-/*.navbar .brand {
-    overflow: hidden;
-    padding-top: 0;
-    padding-bottom: 0;
-    max-height: 40px;
-}*/
