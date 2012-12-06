@@ -17,10 +17,15 @@
 <div class="row">
     <div class="span8">
         <div class="post">
-            {% if page.category == 'news' %}<p>时间：{{ page.date | date: "%Y-%m-%d" }}</p>{% endif %}
+            {% if page.category == 'news' %}<p class="postInfo"><i class="icon-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}</p>{% endif %}
 
             {{ content }}
         </div>
+
+        <!-- UY BEGIN -->
+        <div id="uyan_frame"></div>
+        <script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1694441" async=""></script>
+        <!-- UY END -->
     </div>
 
     <div class="span4">

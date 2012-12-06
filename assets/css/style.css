@@ -91,12 +91,16 @@ blockquote p {
     color: #999999;
 }
 
-.contribute-index h2 {
+.contribIndex h2 {
     margin-bottom: 15px;
     font-size: 18px;
     font-style: italic;
 }
 
-.contribute-index .row {
+.contribIndex .row {
     margin-bottom: 50px;
+}
+
+#uyan_frame {
+    margin-top: 50px;
 }
