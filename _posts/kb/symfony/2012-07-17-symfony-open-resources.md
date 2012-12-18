@@ -30,12 +30,16 @@ active_nav: kb
 图书
 ----
 
-* [《PHP框架高级编程:应用Symfony、CakePHP和Zend》](http://www.amazon.cn/dp/B007N0K0UA/)
 * [《深入PHP(面向对象模式与实践)》](http://www.amazon.cn/dp/B005D6IRRY/)
+
+开源项目
+--------
+
+* [Ghostbb，一个Symfony2实现的微型社区](https://github.com/tangwenming/Ghost/) 
 
 感谢
 ----
 
 按字母升序：
 
-Chris Yue，firehare，Nick
+[Chris Yue](https://github.com/chrisyue)，firehare，Nick, [twm](https://github.com/tangwenming/)
