@@ -5,6 +5,9 @@ body {
 h1 {
     font-size: 24px;
 }
+h1 small {
+    font-size: 14px;
+}
 h2 {
     font-size: 22px;
 }

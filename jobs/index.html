@@ -1,0 +1,17 @@
+---
+layout: page
+title: 招聘信息
+meta_keywords: 招聘,职位,工作,Symfony 2,Symfony,PHP程序员,Web开发
+meta_description: Symfony 2相关工作机会
+active_nav: jobs
+---
+
+<div class="page-header">
+    <h1>招聘信息 <small>英雄必有用武之地</small></h1>
+</div>
+
+<ul class="posts">
+    {% for post in site.categories.jobs %}
+    <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
