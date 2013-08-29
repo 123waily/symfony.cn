@@ -25,7 +25,7 @@ Symfony的版本
 
 <table class="table table-bordered">
     <tr>
-        <th></td>
+        <th></th>
         <th>Symfony 1.4</th>
         <th>Symfony 2</th>
     </tr>
