@@ -4,7 +4,7 @@ title: Symfony 2.4 新功能：Twig的秒表标签
 meta_keywords: Symfony, Symfony 2.4, twig
 meta_description: Symfony 2.4 将发布Twig秒表标签的新功能，用于查看性能
 category: news
-active_nav: news
+nav: news
 ---
 
 PR [#8719](https://github.com/symfony/symfony/pull/8719)

@@ -4,7 +4,7 @@ title: Symfony 2.4 新改进：限制进程空闲时间
 meta_keywords: Symfony, Symfony 2.4, 进程
 meta_description: Symfony 2.4 添加了对空闲进程进行限制的功能
 category: news
-active_nav: news
+nav: news
 ---
 
 从Symfony 2.3起，Process组件的稳定性得到了极大的增强，这里要感谢
