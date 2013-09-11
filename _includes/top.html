@@ -1,21 +1,21 @@
-<div class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
             <a class="brand" href="/">Symfony中文站</a>
 
             <ul id="topnav" class="nav">
-                <li{% if page.active_nav == 'home' %} class="active"{% endif %}><a href="/">首页</a></li>
-                <li{% if page.active_nav == 'blog' %} class="active"{% endif %}><a href="/blog/">博客</a></li>
-                <li{% if page.active_nav == 'news' %} class="active"{% endif %}><a href="/news/">项目动态</a></li>
+                <li{% if page.nav == 'home' %} class="active"{% endif %}><a href="/">首页</a></li>
+                <li{% if page.nav == 'blog' %} class="active"{% endif %}><a href="/blog/">博客</a></li>
+                <li{% if page.nav == 'news' %} class="active"{% endif %}><a href="/news/">项目动态</a></li>
                 <li><a href="/docs/">中文文档</a></li>
-                <li{% if page.active_nav == 'kb' %} class="active"{% endif %}><a href="/kb/">知识库</a></li>
-                <li{% if page.active_nav == 'jobs' %} class="active"{% endif %}><a href="/jobs/" target="_blank">招聘信息</a></li>
+                <li{% if page.nav == 'kb' %} class="active"{% endif %}><a href="/kb/">知识库</a></li>
+                <li{% if page.nav == 'jobs' %} class="active"{% endif %}><a href="/jobs/" target="_blank">招聘信息</a></li>
                 <!--<li><a href="http://segmentfault.com/t/symfony" target="_blank">去SegmentFault提问</a></li>-->
             </ul>
 
             <ul class="nav pull-right">
-                <li{% if page.active_nav == 'contribute' %} class="active"{% endif %}><a href="/contribute/">参与项目</a></li>
-                <li{% if page.active_nav == 'contact' %} class="active"{% endif %}><a href="/contact.html">联系我们</a></li>
+                <li{% if page.nav == 'contribute' %} class="active"{% endif %}><a href="/contribute/">参与项目</a></li>
+                <li{% if page.nav == 'contact' %} class="active"{% endif %}><a href="/contact.html">联系我们</a></li>
             </ul>
         </div>
     </div>

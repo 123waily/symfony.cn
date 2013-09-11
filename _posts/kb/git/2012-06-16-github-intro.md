@@ -4,7 +4,7 @@ title: GitHub简介
 meta_keywords: git,GitHub,教程,Symfony2,Symfony2中文
 meta_descriptions: 介绍GitHub的使用
 categories: [kb, git]
-active_nav: kb
+nav: kb
 ---
 
 {% include why-git.md %}

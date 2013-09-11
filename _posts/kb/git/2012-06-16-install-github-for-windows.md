@@ -4,7 +4,7 @@ title: GitHub for Windows的安装
 meta_keywords: git,GitHub,教程,参与开源,Windows,Symfony2,Symfony2中文
 meta_descriptions: GitHub for Windows的安装
 categories: [kb, git]
-active_nav: kb
+nav: kb
 ---
 
 {% include why-git.md %}

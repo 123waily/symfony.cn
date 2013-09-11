@@ -4,7 +4,7 @@ title: Windows平台上的Git客户端
 meta_keywords: git,Windows,教程,参与开源,Symfony2,Symfony2中文
 meta_descriptions: Windows平台上的Git客户端
 categories: [kb, git]
-active_nav: kb
+nav: kb
 ---
 
 {% include why-git.md %}
@@ -37,6 +37,6 @@ GitHub for Windows是GitHub为了争取Windows平台用户的支持而发布的�
 
 去GitHub注册一个账号吧！也欢迎你关注我们的<a href="https://github.com/modi/symfony-docs-chs" target="_blank">翻译项目</a>。
 
-<p><a class="btn btn-primary" href="http://windows.github.com/" target="_blank">下载GitHub for Windows</a></p> 
+<p><a class="btn btn-primary" href="http://windows.github.com/" target="_blank">下载GitHub for Windows</a></p>
 
 {% include git-references.md %}

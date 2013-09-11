@@ -4,11 +4,11 @@ title: Symfony 2仅仅是框架吗？
 meta_keywords: Symfony2,PHP,开发框架
 meta_description: 我们到底该如何理解Symfony的开发者们对其的期望？Symfony 2仅仅是框架吗？
 categories: blog
-active_nav: blog
+nav: blog
 ---
 
 Symfony是基于MVC架构的PHP框架。作为一款免费软件，在MIT License许可下发行。
- 
+
 2005年10月18日，其官方网站symfony-project.org对外开放;2010年，对应2.0版本的新网站symfony.com启用；2011年7月，Symfony 2.0正式版本发布。Symfony社区的工作重心已经完成从1.x版本向2.x版本的转移。
 
 新一代的Symfony 2，不只是开发框架，其真正的愿景是，成为解决Web开发中常见任务的标准件。一方面，各组件能单独使用，完全解耦，另一方面，在开发接口、规范上保持高度一致，从而实现高效的协作。

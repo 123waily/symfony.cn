@@ -4,7 +4,7 @@ title: Symfony及其版本
 meta_keywords: Symfony,Symfony2,Symfony版本,如何学习Symfony,Silex
 meta_description: Symfony是什么？适合我吗？我应该选择哪个版本？
 categories: [kb, kb_symfony]
-active_nav: kb
+nav: kb
 ---
 
 基于Symfony，程序员可以更高效地开发Web应用，这个结论，体现在以下方面：

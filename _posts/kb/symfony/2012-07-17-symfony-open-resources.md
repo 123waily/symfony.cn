@@ -2,9 +2,9 @@
 layout: post
 title: Symfony2资源汇总
 meta_keywords: Symfony2,Symfony2资源,学习Symfony2,Symfony2例子,Symfony2教程,Symfony2书
-meta_description: 
+meta_description:
 categories: [kb, kb_symfony]
-active_nav: kb
+nav: kb
 ---
 
 文档
@@ -35,7 +35,7 @@ active_nav: kb
 开源项目
 --------
 
-* [Ghostbb，一个Symfony2实现的微型社区](https://github.com/tangwenming/Ghost/) 
+* [Ghostbb，一个Symfony2实现的微型社区](https://github.com/tangwenming/Ghost/)
 
 感谢
 ----

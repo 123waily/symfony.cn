@@ -4,7 +4,7 @@ title: Symfony2在Nginx下的配置
 meta_keywords: Symfony2,配置,Nginx
 meta_description: Symfony2在Nginx下的配置
 categories: [kb, kb_symfony]
-active_nav: kb
+nav: kb
 ---
 
 来源：http://wiki.nginx.org/Symfony
@@ -15,25 +15,25 @@ active_nav: kb
 
     server {
       listen 80;
-     
+
       server_name example.com; # 域名
       root /var/www/symfony2/web; # 站点根目录
-     
+
       error_log /var/log/nginx/symfony2.error.log;
       access_log /var/log/nginx/symfony2.access.log;
-     
+
       # 如果URL中包含app.php，则转发为伪静态格式
       rewrite ^/app\.php/?(.*)$ /$1 permanent;
-     
+
       location / {
         index app.php;
         try_files $uri @rewriteapp;
       }
-     
+
       location @rewriteapp {
         rewrite ^(.*)$ /app.php/$1 last;
       }
-     
+
       # 此段为将PHP请求转交给FastCGI服务，PHP-FPM是非常流行的选项。
       location ~ ^/(app|app_dev)\.php(/|$) {
         fastcgi_pass   127.0.0.1:9000;
@@ -48,28 +48,28 @@ active_nav: kb
 
     server {
       listen 443;
-     
+
       server_name example.com;
       root /var/www/symfony2/web;
-     
+
       ssl on;
       ssl_certificate      /etc/ssl/certs/symfony2.crt;
       ssl_certificate_key  /etc/ssl/private/symfony2.key;
-     
+
       error_log /var/log/nginx/symfony2.error.log;
       access_log /var/log/nginx/symfony2.access.log;
-     
+
       rewrite ^/app\.php/?(.*)$ /$1 permanent;
-     
+
       location / {
         index app.php;
         try_files $uri @rewriteapp;
       }
-     
+
       location @rewriteapp {
         rewrite ^(.*)$ /app.php/$1 last;
       }
-     
+
       location ~ ^/(app|app_dev)\.php(/|$) {
         fastcgi_pass   127.0.0.1:9000;
         fastcgi_split_path_info ^(.+\.php)(/.*)$;

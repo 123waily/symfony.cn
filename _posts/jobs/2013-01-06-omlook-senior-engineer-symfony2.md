@@ -4,7 +4,7 @@ title: 北京奥姆洛克电子商务有限公司招聘Symfony 2高级程序员
 meta_keywords: 招聘,程序员,Symfony,Symfony2,中文社区,开源项目
 meta_description: 北京奥姆洛克电子商务有限公司招聘Symfony 2高级程序员
 category: jobs
-active_nav: jobs
+nav: jobs
 ---
 
 招聘人数: 1
@@ -13,7 +13,7 @@ active_nav: jobs
 
 薪水待遇: 10K-15K
 
-职位描述: 
+职位描述:
 
 * 年龄25岁以上、有2年以上的工作经验；
 * 本科以上毕业；
