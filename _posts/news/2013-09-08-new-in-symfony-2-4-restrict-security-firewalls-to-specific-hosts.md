@@ -7,8 +7,7 @@ category: news
 active_nav: news
 ---
 
-从Symfony 2.2起，路由规则开始支持对指定host的配置。而Symfony 2.4则开始支持
-对指定host的防火墙配置。
+从Symfony 2.2起，路由规则开始支持对指定host的配置。而Symfony 2.4则开始支持对指定host的防火墙配置。
 
 在配置防火墙时，你可以利用正则来限制某些URL，比如 ^/admin/:
 
