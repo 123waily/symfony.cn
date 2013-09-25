@@ -1,25 +1,23 @@
 ---
 layout: post
-title: Symfony 2.4 新功能：Twig的秒表标签
-meta_keywords: Symfony, Symfony 2.4, twig
-meta_description: Symfony 2.4 将发布Twig秒表标签的新功能，用于查看性能
+title: Symfony 2.4新功能：Twig的计时器标签
+meta_keywords: Symfony 2, Symfony 2.4, twig
 category: news
 nav: news
 ---
 
-PR [#8719](https://github.com/symfony/symfony/pull/8719)
+翻译自Symfony官方博客。[阅读原文](http://symfony.com/blog/new-in-symfony-2-4-a-stopwatch-tag-for-twig)
 
-想在渲染模板某个部分的时候察看渲染用时？没有问题，Symfony 2.4将支持twig的
-“秒表”标签，您可以用它在模板的任何位置记录渲染时间，此时间将会记录在分析器
-里，并且会现实在“timeline”一栏里（译者注：分析器在dev模式里的debug栏里，秒
-表的图标）
+想了解渲染模板时，各部分分别用了多少时间？没问题，Symfony 2.4新增了twig的“计时器”标签，你可以用它在模板的任何位置记录渲染耗时，然后在分析器（Profiler）的时间轴（Timeline）里查看。
 
     {% raw %}
     {% stopwatch "foo" %}
-        ... some things that gets timed
+        ... 需要计时的部分
     {% endstopwatch %}
     {% endraw %}
 
-您可以多次使用同一个名字，这样可以让同一个名字的时间放在一条时间轴里显示。
+如果你在模板里重复使用计时器名称，相应的渲染耗时会合并显示。
 
-此标签由Twig Bridge提供，您也可以将其用在Silex写的应用程序里。
+此标签由Twig Bridge提供，你也可以在基于Silex的应用里使用。
+
+相关PR：[#8719](https://github.com/symfony/symfony/pull/8719)

@@ -6,32 +6,36 @@ nav: home
 ---
 
 <div class="alert alert-success">
-    如果你有与Symfony2相关的问题，可以在SegmentFault<a href="http://segmentfault.com/t/symfony">发布标签为Symfony的提问</a>，同学们都在那里蹲点。;)
+    如果你有与Symfony2相关的问题，可以在SegmentFault<a href="http://segmentfault.com/t/symfony">发布标签为Symfony的提问</a>，同学们都在那里蹲点 ;)
 </div>
 
 <div id="take-part" class="hero-unit">
     <div class="row">
         <div class="span7">
             <h1>需要你的参与</h1>
-            <h2>@Symfony开发者们</h2>
-            <p>正在评估、学习或者使用Symfony？和你一样，我们被Symfony框架所吸引，受益之余，发起Symfony开发者中文社区项目，期盼你的加入。你一定会有收获——这并不仅是来自我们的承诺，因为任何成功的开源项目，都与投身其中的开发者共同进步。算你一个？</p>
+            <h2 class="muted">@Symfony开发者们</h2>
+            <p>正在评估、学习或者使用Symfony？和你一样，我们被Symfony框架所吸引，受益之余，发起Symfony开发者中文社区项目，期盼你的加入。你一定会有收获——因为任何成功的开源项目，都与投身其中的开发者共同进步。算你一个？</p>
             <a href="/contribute/" class="btn btn-primary btn-large">了解详情 &raquo;</a>
         </div>
 
         <div class="span3">
-            <dl id="followUs">
-                <dt>参与翻译项目 @ GitHub</dt>
-                <dd><iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=modi&repo=symfony-docs-chs&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="112px" height="20px"></iframe>
-                    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=modi&repo=symfony-docs-chs&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe></dd>
+            <dl>
+                <dt>参与文档翻译</dt>
+                <dd>
+                    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=modi&repo=symfony-docs-chs&type=watch&count=true" width="112px" height="20px" frameborder="0" allowtransparency="true" scrolling="0"></iframe>
+                    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=modi&repo=symfony-docs-chs&type=fork&count=true" width="98px" height="20px" frameborder="0" allowtransparency="true" scrolling="0"></iframe>
+                </dd>
 
                 <dt>关注我们的微博</dt>
-                <dd><iframe width="136" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&width=136&height=24&uid=2667658091&style=2&btn=red&dpc=1"></iframe></dd>
+                <dd>
+                    <iframe src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&width=136&height=24&uid=2667658091&style=2&btn=red&dpc=1" width="136" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="0"></iframe>
+                </dd>
 
                 <dt>或者……</dt>
                 <dd class="last other">
-                邮件列表：<a href="https://groups.google.com/forum/#!forum/symfony-dev-cn">Symfony Dev CN</a> @ Google<br>
                     加入ＱＱ群：<strong>230078413</strong><br>
-                    给我们写信：<img src="/assets/img/no_spam_please.gif" alt="md at symfony dot cn">
+                    给我们写信：<img src="/assets/img/no_spam_please.gif" alt="md at symfony dot cn"><br>
+                    邮件列表：<a href="https://groups.google.com/forum/#!forum/symfony-dev-cn">Symfony Dev CN</a>
                 </dd>
             </dl>
         </div>
@@ -40,26 +44,26 @@ nav: home
 
 <div class="row">
     <div class="span8">
-        <div class="homelist">
+        <div class="home-list">
             <h2>项目动态</h2>
 
             <ul class="unstyled">
                 {% for post in site.categories.news %}
-                <li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+                <li><span class="muted">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
     </div>
 
     <div class="span4">
-        <div class="homelist">
+        <div class="home-list">
             <h2>推荐链接</h2>
 
             <ul class="unstyled">
                 <li><a href="http://segmentfault.com/t/symfony" target="_blank">去SegmentFault提问</a></li>
-                <li><a href="/docs/quick_tour/index.html">快速入门</a>（已译）</li>
+                <li><a href="/docs/quick_tour/index.html">Symfony2快速入门</a></li>
                 <li><a href="/articles/github-intro.html">GitHub介绍</a></li>
-                <li><a href="http://wulijun.github.com/php-the-right-way/">PHP之道</a></li>
+                <li><a href="http://wulijun.github.com/php-the-right-way/" target="_blank">PHP之道</a></li>
                 <li><a href="/articles/symfony-open-resources.html">Symfony2资源汇总</a></li>
             </ul>
         </div>

@@ -5,18 +5,20 @@ body {
 h1 {
     font-size: 24px;
 }
+
 h1 small {
     font-size: 14px;
 }
+
 h2 {
     font-size: 22px;
 }
+
 h3 {
     font-size: 20px;
 }
 
-p,
-ul {
+p, ul {
 	margin-bottom: 1.5em;
 }
 
@@ -26,14 +28,18 @@ blockquote p {
     color: #999999;
 }
 
+#footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
 #take-part h1 {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 #take-part h2 {
     margin: 0.7em 0;
     font-size: 18px;
-    color: #999;
 }
 
 #take-part p {
@@ -41,57 +47,38 @@ blockquote p {
     font-size: 16px;
 }
 
-#followUs {
+#take-part dl {
     margin-left: 30px;
 }
 
-#followUs dd {
-    padding: 10px 0 28px;
+#take-part dd {
+    padding: 5px 0 25px;
 }
 
-#followUs dd.last {
+#take-part dd.last {
     padding-bottom: 0;
 }
 
-#followUs dd.other {
+#take-part dd.other {
     font-size: 12px;
     font-family: simsun;
 }
 
-#followUs dd.other strong {
+#take-part dd.other strong {
     font-weight: normal;
     color: #0088CC;
 }
 
-#footText {
-    padding-top: 50px;
-    text-align: center;
-}
-
-#footText code {
-    border: none;
-    background: none;
-    color: #888;
-}
-
-#footText code span {
-    color: #222;
-}
-
-.homelist {
+.home-list {
     padding-left: 10px;
 }
 
-.homelist h2 {
+.home-list h2 {
     font-size: 16px;
 }
 
-.homelist li {
+.home-list li {
     margin-bottom: 7px;
-}
-
-.homelist .date {
-    color: #999999;
 }
 
 .contribIndex h2 {
