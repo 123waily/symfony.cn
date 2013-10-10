@@ -13,9 +13,9 @@ active_nav: news
 本来我打算让2.4只做为过度版本，却发现在开发阶段出现许多巨大革新。如果你不是天天关注我们的进展，那么请一定要关注这里，
 我会在接下来的几周把主要的功能分享给大家。
 
-经过370+多个PR所带来的1000+代码提交量，2.4版本目前已经是功能完结阶段，接下来的两个月我们将细调这写新需求，并且补上相应的文档。
+经过370+多个PR所带来的1000+代码提交量，2.4版本目前已经到了功能完结阶段，接下来的两个月我们将细调新功能，并且补上相应的文档。
 
-此次的新版本我们将向后兼容到2.3版本，所以测试新版相当容易，你之需要修改一下composer.json里面的版本号
+此次的新版本我们将向后兼容到2.3版本，所以测试新版相当容易，你只需要修改一下composer.json里面的版本号
 （如果是基于Standard Edition的项目，请先看看composer的[diff](https://github.com/symfony/symfony-standard/compare/v2.3.0...v2.4.0-BETA1#diff-10)，或者是看看[Standard Edition框架的变化](https://github.com/symfony/symfony-standard/compare/v2.3.0...v2.4.0-BETA1)）
 
 如果你想单独测试，请使用composer创建一个新项目：
@@ -28,4 +28,4 @@ $ php composer.phar create-project symfony/framework-standard-edition somewhere/
 [TGZ](http://symfony.com/download?v=Symfony_Standard_Vendors_2.4.0-BETA1.tgz)，
 [ZIP](http://symfony.com/download?v=Symfony_Standard_Vendors_2.4.0-BETA1.zip)
 
-如果发现向后不兼容问题，请在[这里](https://github.com/symfony/symfony/issues)提出
+如果发现向后不兼容问题，请在[这里](https://github.com/symfony/symfony/issues)提出。
